@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Prpject-1</title>
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <!--NavBar Start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand text-capitalize" href="#">Haber</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="text-transform: capitalize;">about us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="text-transform: capitalize;">Gallary</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="text-transform: capitalize;">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--End of NavBar-->
+    <!--Header start-->
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/1.jpg">
+                    <div class="carousel-caption">
+                        <h1>Another example headline.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/2.jpg">
+                    <div class="carousel-caption">
+                        <h1></h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/3.jpg">
+                    <div class="carousel-caption">
+                        <h1></h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                    </div>
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+    <!--End of Header-->
+    <!--About US-->
+    <section class="main_heading my-5">
+        <div class="text-center">
+            <h1 class="display-4">About Us</h1>
+            <hr class="w-25 mx-auto">
+        </div>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <figure>
+                        <img src="images/photo-1560457079-9a6532ccb118.jpg" class="img-fluid about" alt="a-img">
+                    </figure>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 d-flex justify-content-center align-items-start flex-column">
+                    <h1>Lorem, ipsum.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor repellat, corporis itaque quae
+                        distinctio incidunt voluptatem qui minima omnis praesentium expedita illum? Maxime expedita
+                        similique, dolor dolore rem deleniti excepturi.</p>
+                    <button type="button" class="btn btn-outline-info" data-toggle="tooltip" data-placement="bottom"
+                        title="Who I am">Check More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Of about us-->
+
+    <!--start Services-->
+    <section class="main_heading my-5 bg-light pt-5">
+        <div class="text-center">
+            <h1 class="display-4">
+                Our Services
+            </h1>
+            <hr class="w-25 mx-auto" />
+        </div>
+        <div class="container services">
+            <div class="row my-5">
+                <div class="col-md-4 col-10 mx-auto">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/thumb2.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-10 mx-auto">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/thumb1.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-10 mx-auto">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/thumb3.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 text-center my-5">
+                    <button type="button" class="btn btn-outline-info" data-toggle="tooltip" data-placement="bottom"
+                        title="Who I am">Check More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of services-->
+    <!--Gallary-->
+    <section class="main_heading my-5 pt-5">
+        <div class="text-center">
+            <h1 class="display-4">
+                Gallary
+            </h1>
+            <hr class="w-25 mx-auto">
+            <div class="container">
+                <div class="row gy-2 m-5">
+                    <div class="col-md-4 col-10 mx-auto">
+                        <figure>
+                            <img src="images/thumb2.jpg" class="img-fluid" alt="image">
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-10 mx-auto">
+                        <figure>
+                            <img src="images/thumb2.jpg" class="img-fluid" alt="image">
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-10 mx-auto">
+                        <figure>
+                            <img src="images/thumb3.jpg" class="img-fluid" alt="image">
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-10 mx-auto">
+                        <figure>
+                            <img src="images/thumb4.jpg" class="img-fluid" style="width: auto; height: auto;"
+                                alt="image">
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-10 mx-auto">
+                        <figure>
+                            <img src="images/thumb2.jpg" class="img-fluid" alt="image">
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-10 mx-auto">
+                        <figure>
+                            <img src="images/thumb3.jpg" class="img-fluid" alt="image">
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-10 mx-auto">
+                        <figure>
+                            <img src="images/thumb4.jpg" class="img-fluid" alt="image">
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-10 mx-auto">
+                        <figure>
+                            <img src="images/thumb2.jpg" class="img-fluid" alt="image">
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-10 mx-auto">
+                        <figure>
+                            <img src="images/thumb3.jpg" class="img-fluid" alt="image">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Gallary-->
+    <!--Offer Section-->
+    <sectio class="main_heading my-5 py-2 ">
+        <div class="container-fluid color-style">
+            <div class="row">
+                <div class="col-12 py-5 text-center">
+                    <h1 class="text-white">Check Out my videos</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                        </svg> Check More</button>
+                </div>
+            </div>
+        </div>
+    </sectio>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of offer section-->
+    <!--Contact section-->
+    <section class="main_heading my-5 pt-5">
+        <div class="text-center">
+            <h1 class="display-4">
+                Contact Us
+            </h1>
+            <hr class="w-25 mx-auto">
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-10 col-md-8 mx-auto">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputName">Email Address</label>
+                            <input type="Name" class="form-control" id="exampleInputName"
+                                aria-describedby="NameHelp" placeholder="enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail">Email Address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail"
+                                aria-describedby="emailHelp" placeholder="Enter your mail">
+                        </div>
+                        <div class="mb-3">
+                            <label class="pr-4">Gender</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Female</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Male</label>
+                              </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleDataList" class="form-label">Select City</label>
+                            <input class="form-control" list="datalistOptions" id="exampleDataList"
+                                placeholder="Type to search...">
+                            <datalist id="datalistOptions">
+                                <option value="San Francisco"></option>
+                                <option value="New York"></option>
+                                <option value="Seattle"></option>
+                                <option value="Los Angeles"></option>
+                                <option value="Chicago"></option>
+                            </datalist>
+                        </div>
+                        <div class="mb-3">
+                            <div class="input-group">
+                                <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                
+                              </div>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Of contact section-->
+    <!--footer-->
+    <footer class="bg-secondary text-center text-white">
+        <p>SAAD MALIK</p>
+    </footer>
+    <!--Footer end-->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-2.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+</body>
+
+</html>
